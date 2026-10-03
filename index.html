@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhadriko Theo | Portfolio</title>
+  <meta name="description" content="Portfolio of Bhadriko Theo - Professional & Creative Portfolio" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Devicon -->
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="modal_styles.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Bhadriko<span>.</span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#resume">Riwayat</a></li>
+          <li><a href="#portfolio">Portofolio</a></li>
+          <li><a href="#gallery">Galeri</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h3>Halo, Saya</h3>
+        <h1>Bhadriko Theo</h1>
+        <p>
+          Seorang mahasiswa teknik informatika yang berdedikasi menciptakan solusi digital modern.
+          Menggabungkan estetika desain dan fungsionalitas teknologi untuk
+          menghadirkan pengalaman pengguna yang bermakna.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+          <a href="#resume" class="btn btn-outline">Lihat CV</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="img-frame">
+          <img src="img/bhadriko.png" alt="Bhadriko Theo Profile" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Halo, saya Bhadriko Theo Pramudya, mahasiswa S1 Teknik Informatika
+            Universitas Komputer Indonesia (UNIKOM) yang berfokus pada
+            pengembangan Front End Website Design dengan dukungan kemampuan PHP
+            untuk kebutuhan sistem sederhana seperti form, login, dan pengolahan
+            data dasar.
+          </p>
+          <p>
+            Saya terbiasa membuat tampilan website yang rapi, responsif, dan
+            mudah digunakan, baik untuk kebutuhan tugas kuliah, UMKM, maupun
+            landing page promosi. Dalam setiap proyek, saya mengutamakan
+            komunikasi yang jelas, pengerjaan tepat waktu, serta hasil yang
+            sesuai dengan kebutuhan klien.
+          </p>
+          <p>
+            Saat ini saya terbuka untuk berbagai pekerjaan seperti pembuatan
+            landing page, website sederhana, maupun perbaikan tampilan website,
+            dengan harga yang terjangkau namun tetap menjaga kualitas. Bagi
+            saya, setiap proyek adalah langkah membangun kepercayaan dan kerja
+            sama jangka panjang.
+          </p>
+        </div>
+        <div class="skills-wrapper" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+
+          <!-- Soft Skills -->
+          <div class="soft-skills">
+            <h3 style="font-size: 1.5rem; margin-bottom: 20px;">Soft Skills</h3>
+            <div class="skills-grid">
+              <span class="skill-tag">Komunikasi</span>
+              <span class="skill-tag">Kepemimpinan</span>
+              <span class="skill-tag">Kerja Sama Tim</span>
+              <span class="skill-tag">Adaptasi</span>
+              <span class="skill-tag">Problem Solving</span>
+            </div>
+          </div>
+
+          <!-- Hard Skills -->
+          <div class="hard-skills">
+            <h3 style="font-size: 1.5rem; margin-bottom: 20px;">Hard Skills</h3>
+            
+            <!-- Languages -->
+            <div style="margin-bottom: 25px;">
+              <h4 style="font-size: 1rem; color: var(--accent-color); margin-bottom: 15px; opacity: 0.9; text-transform: uppercase; letter-spacing: 1px;">Languages</h4>
+              <div class="tech-stack" style="display: flex; gap: 20px; flex-wrap: wrap;">
+                <div class="tech-item" style="text-align: center;">
+                  <i class="fab fa-html5" style="font-size: 3rem; color: #e34f26;"></i>
+                  <p style="margin-top: 5px; font-size: 0.8rem;">HTML</p>
+                </div>
+                <div class="tech-item" style="text-align: center;">
+                  <i class="fab fa-css3-alt" style="font-size: 3rem; color: #1572b6;"></i>
+                  <p style="margin-top: 5px; font-size: 0.8rem;">CSS</p>
+                </div>
+                <div class="tech-item" style="text-align: center;">
+                  <i class="fab fa-js" style="font-size: 3rem; color: #f7df1e;"></i>
+                  <p style="margin-top: 5px; font-size: 0.8rem;">JavaScript</p>
+                </div>
+                <div class="tech-item" style="text-align: center;">
+                  <i class="fab fa-php" style="font-size: 3rem; color: #777bb4;"></i>
+                  <p style="margin-top: 5px; font-size: 0.8rem;">PHP</p>
+                </div>
+                <div class="tech-item" style="text-align: center;">
+                  <i class="fab fa-java" style="font-size: 3rem; color: #007396;"></i>
+                  <p style="margin-top: 5px; font-size: 0.8rem;">Java</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Framework -->
+            <div style="margin-bottom: 25px;">
+              <h4 style="font-size: 1rem; color: var(--accent-color); margin-bottom: 15px; opacity: 0.9; text-transform: uppercase; letter-spacing: 1px;">Framework</h4>
+              <div class="tech-stack" style="display: flex; gap: 20px; flex-wrap: wrap;">
+                <div class="tech-item" style="text-align: center;">
+                  <i class="fab fa-laravel" style="font-size: 3rem; color: #ff2d20;"></i>
+                  <p style="margin-top: 5px; font-size: 0.8rem;">Laravel</p>
+                </div>
+                <div class="tech-item" style="text-align: center;">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+                    style="width: 3rem; height: 3rem;" alt="Next.js" />
+                  <p style="margin-top: 5px; font-size: 0.8rem;">Next.js</p>
+                </div>
+                <div class="tech-item" style="text-align: center;">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    style="width: 3rem; height: 3rem;" alt="Tailwind CSS" />
+                  <p style="margin-top: 5px; font-size: 0.8rem;">Tailwind CSS</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools -->
+            <div>
+              <h4 style="font-size: 1rem; color: var(--accent-color); margin-bottom: 15px; opacity: 0.9; text-transform: uppercase; letter-spacing: 1px;">Tools</h4>
+              <div class="tech-stack" style="display: flex; gap: 20px; flex-wrap: wrap;">
+                <div class="tech-item" style="text-align: center;">
+                  <i class="fab fa-github" style="font-size: 3rem; color: var(--github-icon-color);"></i>
+                  <p style="margin-top: 5px; font-size: 0.8rem;">GitHub</p>
+                </div>
+                <div class="tech-item" style="text-align: center;">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                    style="width: 3rem; height: 3rem;" alt="Figma" />
+                  <p style="margin-top: 5px; font-size: 0.8rem;">Figma</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume / Experience Section -->
+  <section id="resume">
+    <div class="container">
+      <h2>Pendidikan & Pengalaman</h2>
+      <br /><br />
+      <div class="resume-grid">
+        <!-- Education Item 1: UNIKOM -->
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Teknik Informatika</h3>
+            <span class="resume-date">2023 - Sekarang</span>
+          </div>
+          <h4>Universitas Komputer Indonesia (UNIKOM)</h4>
+          <p>
+            Sedang menempuh pendidikan program Sarjana (S1) di bidang Teknik
+            Informatika.
+          </p>
+          <p style="margin-top: 5px; font-size: 0.9rem; opacity: 0.8">
+            Aktif dalam organisasi Himpunan Mahasiswa Teknik Informatika (HMIF)
+            dan mengikuti berbagai kegiatan pengembangan diri di kampus.
+          </p>
+        </div>
+
+        <!-- Education Item 2: SMKN 1 Cimahi -->
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Rekayasa Perangkat Lunak</h3>
+            <span class="resume-date">2020 - 2023</span>
+          </div>
+          <h4>SMK Negeri 1 Cimahi</h4>
+          <p>
+            Aktif terlibat dalam berbagai kepanitiaan kegiatan besar jurusan,
+            organisasi, dan sekolah.
+          </p>
+          <p style="margin-top: 5px; font-size: 0.9rem; opacity: 0.8">
+            Menjadi Ketua Pelaksana dalam beberapa kegiatan besar jurusan.
+          </p>
+        </div>
+
+        <!-- Education Item 3: SMPIT Budhi Luhur -->
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Siswa</h3>
+            <span class="resume-date">2017 - 2020</span>
+          </div>
+          <h4>SMPIT Budhi Luhur Cimahi</h4>
+          <p>
+            Aktif merancang dan mengorganisasi berbagai kegiatan besar
+            organisasi dan sekolah.
+          </p>
+          <p style="margin-top: 5px; font-size: 0.9rem; opacity: 0.8">
+            Memegang peran sebagai Ketua di beberapa organisasi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Organizational Experience Section -->
+  <section id="organization">
+    <div class="container">
+      <h2>Pengalaman Organisasi</h2>
+      <br /><br />
+      <div class="resume-grid">
+
+        <!-- HMIF UNIKOM -->
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Himpunan Mahasiswa Teknik Informatika (HMIF)</h3>
+            <span class="resume-date">2024 - Sekarang</span>
+          </div>
+          <h4>Universitas Komputer Indonesia (UNIKOM)</h4>
+
+          <div style="margin-top: 15px;">
+            <h5 style="color: var(--accent-color); font-weight: 600; margin-bottom: 5px;">Sekretaris Umum – Kabinet
+              Dhinakara 2025-2026</h5>
+            <p style="font-size: 0.85rem; margin-bottom: 5px; opacity: 0.7;">Januari 2026 – Sekarang</p>
+            <ul style="list-style-type: disc; padding-left: 20px; color: var(--text-secondary); font-size: 0.9rem;">
+              <li>Bertanggung jawab atas sistem administrasi dan tata kelola dokumen organisasi.</li>
+              <li>Menyusun notulensi, surat resmi, serta laporan kegiatan sebagai dasar pengambilan keputusan pimpinan.
+              </li>
+              <li>Mengawal koordinasi internal agar pelaksanaan program kerja berjalan terstruktur dan terdokumentasi
+                dengan baik.</li>
+            </ul>
+          </div>
+
+
+          <div style="margin-top: 15px;">
+            <h5 style="color: var(--accent-color); font-weight: 600; margin-bottom: 5px;">Anggota Muda – Divisi
+              Pengembangan Aparatur Organisasi</h5>
+            <p style="font-size: 0.85rem; margin-bottom: 5px; opacity: 0.7;">Desember 2024 – Januari 2026</p>
+            <ul style="list-style-type: disc; padding-left: 20px; color: var(--text-secondary); font-size: 0.9rem;">
+              <li>Aktif sebagai anggota muda di Divisi Pengembangan Aparatur Organisasi.</li>
+              <li>Berkontribusi dalam program pengembangan sumber daya organisasi serta mendukung pelaksanaan kegiatan
+                internal himpunan.</li>
+              <li>Koordinator Humas INNOVENTURE 2025.</li>
+              <li>Koordinator PPPK GAMATIF 2025.</li>
+            </ul>
+          </div>
+
+          <div style="margin-top: 15px;">
+            <h5 style="color: var(--accent-color); font-weight: 600; margin-bottom: 5px;">Volunteer PPPK Gamatif 2024
+            </h5>
+            <p style="font-size: 0.85rem; margin-bottom: 5px; opacity: 0.7;">September 2024</p>
+            <ul style="list-style-type: disc; padding-left: 20px; color: var(--text-secondary); font-size: 0.9rem;">
+              <li>Menjadi penanggung jawab pada beberapa rangkaian acara.</li>
+              <li>Bertugas fokus pada keselamatan dan pencegahan kecelakaan.</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- PKS -->
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Patroli Keamanan Sekolah (PKS)</h3>
+            <span class="resume-date">2021 - 2023</span>
+          </div>
+          <h4>Cimahi, Indonesia</h4>
+
+          <div style="margin-top: 15px;">
+            <h5 style="color: var(--accent-color); font-weight: 600; margin-bottom: 5px;">Komandan Kompi</h5>
+            <p style="font-size: 0.85rem; margin-bottom: 5px; opacity: 0.7;">Mei 2022 – Januari 2023</p>
+            <ul style="list-style-type: disc; padding-left: 20px; color: var(--text-secondary); font-size: 0.9rem;">
+              <li>Memimpin organisasi dalam menegakkan kedisiplinan dan keamanan sekolah.</li>
+              <li>Mengoordinir jalannya tiap bidang organisasi serta membimbing anggota dalam pelaksanaan tugas.</li>
+            </ul>
+          </div>
+
+          <div style="margin-top: 15px;">
+            <h5 style="color: var(--accent-color); font-weight: 600; margin-bottom: 5px;">Komandan Peleton</h5>
+            <p style="font-size: 0.85rem; margin-bottom: 5px; opacity: 0.7;">Agustus 2021 – Mei 2022</p>
+            <ul style="list-style-type: disc; padding-left: 20px; color: var(--text-secondary); font-size: 0.9rem;">
+              <li>Memimpin dan mengoordinasi anggota dalam menjalankan tugas organisasi sesuai arahan pelatih.</li>
+            </ul>
+          </div>
+
+
+        </div>
+
+        <!-- OSIS SMPIT -->
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>OSIS SMPIT Budhi Luhur</h3>
+            <span class="resume-date">2018 - 2019</span>
+          </div>
+          <h4>Ketua (Februari 2018 – Januari 2019)</h4>
+          <ul
+            style="list-style-type: disc; padding-left: 20px; margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem;">
+            <li>Mengelola dan mengoordinasi seluruh aktivitas siswa di sekolah.</li>
+            <li>Membantu guru dalam pengelolaan kegiatan siswa dan membentuk organisasi untuk meningkatkan kualitas
+              siswa.</li>
+          </ul>
+        </div>
+
+        <!-- Paskibra -->
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Paskibra SMPIT Budhi Luhur</h3>
+            <span class="resume-date">2018 - 2019</span>
+          </div>
+          <h4>Ketua (Maret 2018 – Januari 2019)</h4>
+          <ul
+            style="list-style-type: disc; padding-left: 20px; margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem;">
+            <li>Melatih siswa dalam keterampilan baris-berbaris baik secara teori maupun praktik.</li>
+            <li>Mengorganisasi kegiatan Paskibra di tingkat sekolah.</li>
+          </ul>
+        </div>
+
+        <!-- Pramuka -->
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Pramuka SMPIT Budhi Luhur</h3>
+            <span class="resume-date">2018 - 2019</span>
+          </div>
+          <h4>Ketua Regu & Wakil Pratama (Maret 2018 – Januari 2019)</h4>
+          <ul
+            style="list-style-type: disc; padding-left: 20px; margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem;">
+            <li>Mendampingi Pratama dalam memberikan pendidikan kepramukaan kepada anggota regu.</li>
+            <li>Membantu pengelolaan kegiatan latihan kepramukaan dan pengembangan keterampilan anggota.</li>
+          </ul>
+        </div>
+
+        <!-- Remaja Masjid -->
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Remaja Masjid SMPIT Budhi Luhur</h3>
+            <span class="resume-date">2017 - 2019</span>
+          </div>
+          <h4>Bendahara (Oktober 2017 – Februari 2019)</h4>
+          <ul
+            style="list-style-type: disc; padding-left: 20px; margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem;">
+            <li>Mengelola keuangan organisasi dan memastikan dana digunakan untuk kebutuhan operasional masjid.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Portofolio Projek</h2>
+      <p style="max-width: 600px; margin-top: 10px; margin-bottom: 30px;">
+        Berikut adalah beberapa hasil karya yang telah saya kerjakan, mulai dari tugas kuliah hingga projek freelance
+        sederhana.
+      </p>
+
+      <div class="project-grid">
+
+        <!-- Project 1 - TugasKu.App -->
+        <div class="project-card fade-in-section">
+          <div class="project-img">
+            <!-- Placeholder Image - You can replace src with your project screenshots -->
+            <div style="font-size: 3rem; color: #333;"><i class="fas fa-tasks"></i></div>
+          </div>
+          <div class="project-content">
+            <h3>TugasKu.App</h3>
+            <p>Tugasku.app adalah aplikasi manajemen tugas berbasis web yang dirancang khusus untuk mahasiswa. Aplikasi
+              ini memungkinkan pengguna untuk mencatat, mengelola, dan memantau progres tugas dengan mudah, serta
+              mengelompokkannya berdasarkan kategori dan prioritas.</p>
+            <div class="project-tech">
+              <span class="tech-badge">PHP</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-demo demo-trigger">Lihat Demo</a>
+              <a href="https://github.com/Bhadthepramdirdjo/TugasKu.pp.git" target="_blank"
+                class="btn-sm btn-code">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 - KerjaKita.App -->
+        <div class="project-card fade-in-section">
+          <div class="project-img"
+            style="background-image: url('img/Kerjakita-app.png'); background-size: cover; background-position: center;">
+          </div>
+          <div class="project-content">
+            <h3>KerjaKita.App</h3>
+            <p>Aplikasi KerjaKita adalah platform marketplace penyedia lowongan kerja (job portal) berbasis web yang
+              dibangun menggunakan framework Laravel 12. Aplikasi ini dirancang untuk menghubungkan dua pihak utama,
+              yaitu Pemberi Kerja yang membutuhkan tenaga kerja jasa dan Pekerja yang menawarkan keahlian tertentu.</p>
+            <div class="project-tech">
+              <span class="tech-badge">Laravel</span>
+              <span class="tech-badge">MySQL</span>
+              <span class="tech-badge">PHP</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">Tailwindcss</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-demo demo-trigger">Lihat Demo</a>
+              <a href="https://github.com/Bhadthepramdirdjo/KerjaKita.git" target="_blank"
+                class="btn-sm btn-code">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 - Ruangin -->
+        <div class="project-card fade-in-section">
+          <div class="project-img"
+            style="background-image: url('img/Ruangin.png'); background-size: cover; background-position: center;">
+          </div>
+          <div class="project-content">
+            <h3>Ruangin</h3>
+            <p>Program Ruangin adalah platform berbasis web yang dikembangkan menggunakan framework Laravel untuk
+              mengotomatisasi sistem peminjaman ruangan di lingkungan institusi atau organisasi. Aplikasi ini dirancang
+              untuk menggantikan pencatatan manual dengan sistem digital yang lebih terorganisir dan transparan.</p>
+            <div class="project-tech">
+              <span class="tech-badge">Laravel</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">PHP</span>
+              <span class="tech-badge">MySQL</span>
+              <span class="tech-badge">Tailwindcss</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-demo demo-trigger">Lihat Demo</a>
+              <a href="https://github.com/Bhadthepramdirdjo/Ruangin.git" target="_blank"
+                class="btn-sm btn-code">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 - Invoice.APP -->
+        <div class="project-card fade-in-section">
+          <div class="project-img"
+            style="background-image: url('img/Invoice-APP.png'); background-size: cover; background-position: center;">
+          </div>
+          <div class="project-content">
+            <h3>Invoice.APP</h3>
+            <p>Aplikasi ini adalah sebuah Sistem Manajemen Invoice (Faktur) Berbasis Web yang dirancang untuk toko,
+              bisnis, atau UMKM (dalam database Anda tercatat nama "Invoice HomeBake33"). Aplikasi ini berfungsi untuk
+              memudahkan pengelolaan data produk, data pelanggan, hingga pembuatan dan pencetakan tagihan/invoice secara
+              profesional.</p>
+            <div class="project-tech">
+              <span class="tech-badge">PHP</span>
+              <span class="tech-badge">Tailwind CSS</span>
+              <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-demo demo-trigger">Lihat Demo</a>
+              <a href="#" target="_blank" class="btn-sm btn-code">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 - CAKRA -->
+        <div class="project-card fade-in-section">
+          <div class="project-img"
+            style="background-image: url('img/Cakrea.png'); background-size: cover; background-position: center;">
+          </div>
+          <div class="project-content">
+            <h3>CAKRA</h3>
+            <p>CAKRA adalah aplikasi manajemen dan pelacakan pengiriman barang (logistik). Aplikasi ini digunakan untuk mengelola seluruh proses pengiriman paket secara terintegrasi mulai dari pendaftaran barang di loket, penugasan kurir untuk mengantar paket, pelacakan status paket oleh pelanggan menggunakan nomor resi, hingga pembuatan laporan pengiriman.</p>
+            <div class="project-tech">
+              <span class="tech-badge">PHP</span>
+              <span class="tech-badge">Laravel</span>
+              <span class="tech-badge">Tailwind</span>
+              <span class="tech-badge">Axios</span>
+              <span class="tech-badge">Vite</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-demo demo-trigger">Lihat Demo</a>
+              <a href="#" target="_blank" class="btn-sm btn-code">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 - IMS (Inventory Management System) -->
+        <div class="project-card fade-in-section">
+          <div class="project-img"
+            style="background-image: url('img/IMS.jpeg'); background-size: cover; background-position: center;">
+          </div>
+          <div class="project-content">
+            <h3>IMS (Inventory Management System)</h3>
+            <p>IMS (Inventory Management System) adalah aplikasi Android yang dirancang untuk membantu pengelolaan inventaris barang secara digital. Aplikasi ini menyediakan fitur pengelolaan data barang, peminjaman, persetujuan, pengembalian, serta riwayat transaksi sehingga proses administrasi inventaris menjadi lebih terstruktur, efisien, dan terdokumentasi.</p>
+            <div class="project-tech">
+              <span class="tech-badge">Java</span>
+              <span class="tech-badge">Android Studio</span>
+              <span class="tech-badge">SQLite Database</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-demo demo-trigger">Lihat Demo</a>
+              <a href="#" target="_blank" class="btn-sm btn-code">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- GitHub CTA -->
+      <div style="text-align: center; margin-top: 50px;">
+        <p style="font-size: 1.1rem; margin-bottom: 20px; color: var(--text-secondary);">
+          Lihat lebih banyak projek saya di GitHub
+        </p>
+        <a href="https://github.com/Bhadthepramdirdjo" target="_blank" class="btn btn-primary"
+          style="display: inline-flex; align-items: center; gap: 10px;">
+          <i class="fab fa-github"></i> Kunjungi Profil GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <div class="container">
+      <h2>Galeri Saya</h2>
+      <p style="max-width: 600px; margin-top: 10px; margin-bottom: 30px;">
+        Dokumentasi kegiatan dan pengalaman organisasi yang telah saya lalui.
+      </p>
+
+      <div class="gallery-grid">
+        <!-- PKS Collection -->
+        <div class="doc-item">
+          <img src="img/PKS.JPG" alt="Dokumentasi PKS" class="doc-image" loading="lazy">
+          <div class="doc-caption">Anggota PKS 2021-2023</div>
+        </div>
+        <div class="doc-item">
+          <img src="img/LatihanKhusus.jpeg" alt="Komandan Kompi 2" class="doc-image" loading="lazy">
+          <div class="doc-caption">Komandan Pleton PKS 2021-2022</div>
+        </div>
+        <div class="doc-item">
+          <img src="img/DANKI.JPG" alt="Komandan Kompi" class="doc-image" loading="lazy">
+          <div class="doc-caption">Komandan Kompi PKS 2022-2023</div>
+        </div>
+
+        <!-- Volunteer & HMIF Collection -->
+        <div class="doc-item">
+          <img src="img/VolunteerPPPK1.jpeg" alt="Dokumentasi Volunteer" class="doc-image" loading="lazy">
+          <div class="doc-caption">Volunteer PPPK Gamatif 2024</div>
+        </div>
+        <div class="doc-item">
+          <img src="img/HMIF.jpg" alt="Dokumentasi HMIF" class="doc-image" loading="lazy">
+          <div class="doc-caption">HMIF 2024-2025</div>
+        </div>
+        <div class="doc-item">
+          <img src="img/AnggotaAktif.JPG" alt="Dokumentasi HIMA" class="doc-image" loading="lazy">
+          <div class="doc-caption">Anggota Aktif HMIF</div>
+        </div>
+        <div class="doc-item">
+          <img src="img/PAO.jpeg" alt="Dokumentasi PAO" class="doc-image" loading="lazy">
+          <div class="doc-caption">Anggota Muda Divisi PAO HMIF 2024-2025</div>
+        </div>
+        <div class="doc-item">
+          <img src="img/KoordinatorHumas.jpeg" alt="Dokumentasi HIMA" class="doc-image" loading="lazy">
+          <div class="doc-caption">Koordinator HUMAS INNOVENTURE HMIF 2024-2025</div>
+        </div>
+        <div class="doc-item">
+          <img src="img/HIMA.JPG" alt="Dokumentasi HIMA" class="doc-image" loading="lazy">
+          <div class="doc-caption">Koordinator PPPK GAMATIF HMIF 2024-2025</div>
+        </div>
+        <div class="doc-item">
+          <img src="img/SekretarisUmum.jpg" alt="Dokumentasi Sekretaris Umum" class="doc-image" loading="lazy">
+          <div class="doc-caption">Sekretaris Umum HMIF 2025-2026</div>
+        </div>
+        <div class="doc-item">
+          <img src="img/Sekumm.JPG" alt="Dokumentasi Volunteer" class="doc-image" loading="lazy">
+          <div class="doc-caption">Sekretaris Umum HMIF 2025-2026</div>
+        </div>
+
+        <!-- Team -->
+        <div class="doc-item">
+          <img src="img/Projekansamateman.jpg" alt="Dokumentasi Volunteer" class="doc-image" loading="lazy">
+          <div class="doc-caption">Team</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container contact-container">
+      <h2>Mari Terhubung</h2>
+      <p>
+        Saya selalu terbuka untuk peluang baru dan kolaborasi yang menarik.
+        Jangan ragu untuk menghubungi saya.
+      </p>
+
+      <div class="contact-links">
+        <a href="#" class="contact-btn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Bhadthepramdirdjo" target="_blank" class="contact-btn"><i
+            class="fab fa-github"></i></a>
+        <a href="mailto:bhadriko7@gmail.com" class="contact-btn"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/bhadthepramdirdjo/" target="_blank" class="contact-btn"><i
+            class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  </footer>
+
+  <!-- Demo Modal -->
+  <div id="demo-modal" class="modal-overlay">
+    <div class="modal-container">
+      <button class="modal-close">&times;</button>
+      <div class="modal-body">
+        <div class="modal-icon">
+          <i class="fas fa-hammer"></i>
+        </div>
+        <h2>Demo Belum Tersedia</h2>
+        <div class="modal-status">
+          <i class="fas fa-clock"></i> Dalam Pengembangan
+        </div>
+        <p>
+          Maaf, halaman demo untuk project ini <strong>belum tersedia</strong> untuk saat ini.
+          Anda dapat mengakses source code dan dokumentasi lengkap melalui repository GitHub.
+        </p>
+        <div class="modal-actions">
+          <a href="https://github.com/Bhadthepramdirdjo" target="_blank" class="btn btn-primary">
+            <i class="fab fa-github"></i> Kunjungi Repository
+          </a>
+          <button class="btn btn-outline modal-close-btn">
+            Kembali
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
