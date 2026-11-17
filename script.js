@@ -4,24 +4,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('themeToggle');
     const htmlEl = document.documentElement;
     
-    // Load saved theme from localStorage
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-        htmlEl.setAttribute('data-theme', savedTheme);
-    }
+    // Load saved theme from localStorage (default: 'light')
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    htmlEl.setAttribute('data-theme', savedTheme);
     
     // Toggle theme on button click
     if (themeToggle) {
         themeToggle.addEventListener('click', () => {
-            const currentTheme = htmlEl.getAttribute('data-theme');
+            const currentTheme = htmlEl.getAttribute('data-theme') || 'light';
             const newTheme = currentTheme === 'light' ? 'dark' : 'light';
             
-            if (newTheme === 'dark') {
-                htmlEl.removeAttribute('data-theme');
-            } else {
-                htmlEl.setAttribute('data-theme', newTheme);
-            }
-            
+            htmlEl.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
         });
     }
